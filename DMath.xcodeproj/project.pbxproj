@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1872127C1B51D61600CE326E /* DMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 1872127B1B51D61600CE326E /* DMath.h */; };
+		1872127E1B51D61600CE326E /* DMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 1872127D1B51D61600CE326E /* DMath.m */; };
+		187212841B51D61700CE326E /* libDMath.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 187212781B51D61600CE326E /* libDMath.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187212851B51D61700CE326E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187212701B51D61600CE326E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187212771B51D61600CE326E;
+			remoteInfo = DMath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187212781B51D61600CE326E /* libDMath.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libDMath.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		1872127B1B51D61600CE326E /* DMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMath.h; sourceTree = "<group>"; };
+		1872127D1B51D61600CE326E /* DMath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMath.m; sourceTree = "<group>"; };
+		187212831B51D61700CE326E /* DMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187212891B51D61700CE326E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187212751B51D61600CE326E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187212801B51D61700CE326E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187212841B51D61700CE326E /* libDMath.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1872126F1B51D61600CE326E = {
+			isa = PBXGroup;
+			children = (
+				1872127A1B51D61600CE326E /* DMath */,
+				187212871B51D61700CE326E /* DMathTests */,
+				187212791B51D61600CE326E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187212791B51D61600CE326E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187212781B51D61600CE326E /* libDMath.dylib */,
+				187212831B51D61700CE326E /* DMathTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1872127A1B51D61600CE326E /* DMath */ = {
+			isa = PBXGroup;
+			children = (
+				1872127B1B51D61600CE326E /* DMath.h */,
+				1872127D1B51D61600CE326E /* DMath.m */,
+			);
+			path = DMath;
+			sourceTree = "<group>";
+		};
+		187212871B51D61700CE326E /* DMathTests */ = {
+			isa = PBXGroup;
+			children = (
+				187212881B51D61700CE326E /* Supporting Files */,
+			);
+			path = DMathTests;
+			sourceTree = "<group>";
+		};
+		187212881B51D61700CE326E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187212891B51D61700CE326E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		187212761B51D61600CE326E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1872127C1B51D61600CE326E /* DMath.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		187212771B51D61600CE326E /* DMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1872128C1B51D61700CE326E /* Build configuration list for PBXNativeTarget "DMath" */;
+			buildPhases = (
+				187212741B51D61600CE326E /* Sources */,
+				187212751B51D61600CE326E /* Frameworks */,
+				187212761B51D61600CE326E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMath;
+			productName = DMath;
+			productReference = 187212781B51D61600CE326E /* libDMath.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		187212821B51D61700CE326E /* DMathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1872128F1B51D61700CE326E /* Build configuration list for PBXNativeTarget "DMathTests" */;
+			buildPhases = (
+				1872127F1B51D61700CE326E /* Sources */,
+				187212801B51D61700CE326E /* Frameworks */,
+				187212811B51D61700CE326E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187212861B51D61700CE326E /* PBXTargetDependency */,
+			);
+			name = DMathTests;
+			productName = DMathTests;
+			productReference = 187212831B51D61700CE326E /* DMathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187212701B51D61600CE326E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Janis Böhm";
+				TargetAttributes = {
+					187212771B51D61600CE326E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					187212821B51D61700CE326E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 187212731B51D61600CE326E /* Build configuration list for PBXProject "DMath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1872126F1B51D61600CE326E;
+			productRefGroup = 187212791B51D61600CE326E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187212771B51D61600CE326E /* DMath */,
+				187212821B51D61700CE326E /* DMathTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187212811B51D61700CE326E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187212741B51D61600CE326E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1872127E1B51D61600CE326E /* DMath.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1872127F1B51D61700CE326E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187212861B51D61700CE326E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187212771B51D61600CE326E /* DMath */;
+			targetProxy = 187212851B51D61700CE326E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1872128A1B51D61700CE326E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1872128B1B51D61700CE326E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1872128D1B51D61700CE326E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1872128E1B51D61700CE326E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		187212901B51D61700CE326E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DMathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		187212911B51D61700CE326E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DMathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187212731B51D61600CE326E /* Build configuration list for PBXProject "DMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1872128A1B51D61700CE326E /* Debug */,
+				1872128B1B51D61700CE326E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1872128C1B51D61700CE326E /* Build configuration list for PBXNativeTarget "DMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1872128D1B51D61700CE326E /* Debug */,
+				1872128E1B51D61700CE326E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1872128F1B51D61700CE326E /* Build configuration list for PBXNativeTarget "DMathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187212901B51D61700CE326E /* Debug */,
+				187212911B51D61700CE326E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187212701B51D61600CE326E /* Project object */;
+}
